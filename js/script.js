@@ -9,8 +9,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS20-Unit6-01-PWA/sw.js", {
-    scope: "/ICS20-Unit6-01-PWA/",
+  navigator.serviceWorker.register("/ICS20-Assignment4-HTML/sw.js", {
+    scope: "/ICS20-Assignment4-HTML/",
   })
 }
 
