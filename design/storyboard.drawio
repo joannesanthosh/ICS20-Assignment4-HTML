@@ -28,6 +28,12 @@
                 <mxCell id="15" value="Subtotal: ___&lt;br&gt;Tax: _______&lt;br&gt;Final Cost: __" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="150" y="400" width="130" height="70" as="geometry"/>
                 </mxCell>
+                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="150" width="210" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="triangle;whiteSpace=wrap;html=1;rotation=135;" vertex="1" parent="1">
+                    <mxGeometry x="379.52" y="192.98" width="145" height="120" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
