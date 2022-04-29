@@ -19,39 +19,38 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   // input
-  const sL = document.getElementById("size-large").checked
-  const sXL = document.getElementById("size-extra-large").checked
-  const oT = document.getElementById("one").checked
-  const tT = document.getElementById("two").checked
-  const thrT = document.getElementById("three").checked
-  const fT = document.getElementById("four").checked
+  const sizeLarge = document.getElementById("size-large").checked
+  const oneTopping = document.getElementById("one-topping").checked
+  const twoToppings = document.getElementById("two-toppings").checked
+  const threeToppings = document.getElementById("three-toppings").checked
+  const fourToppings = document.getElementById("four-toppings").checked
   var size
   var toppings
 
   // process and output
   const TAX = 0.13
 
-  if (sL == true) {
+  if (sizeLarge == true) {
     size = 6.0
   }
 
-  if (sL == false) {
+  if (sizeLarge == false) {
     size = 10.0
   }
 
-  if (oT == true) {
+  if (oneTopping == true) {
     toppings = 1.0
   }
 
-  if (tT == true) {
+  if (twoToppings == true) {
     toppings = 1.75
   }
 
-  if (thrT == true) {
+  if (threeToppings == true) {
     toppings = 2.5
   }
 
-  if (fT == true) {
+  if (fourToppings == true) {
     toppings = 3.35
   }
 
