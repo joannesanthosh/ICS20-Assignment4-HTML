@@ -19,11 +19,11 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   // input
-  const sizeLarge = document.getElementById("size-large").checked
-  const oneTopping = document.getElementById("one-topping").checked
-  const twoToppings = document.getElementById("two-toppings").checked
-  const threeToppings = document.getElementById("three-toppings").checked
-  const fourToppings = document.getElementById("four-toppings").checked
+  const sizeLarge = document.getElementById("checkbox-1").checked
+  const oneTopping = document.getElementById("one").checked
+  const twoToppings = document.getElementById("two").checked
+  const threeToppings = document.getElementById("three").checked
+  const fourToppings = document.getElementById("four").checked
   var size
   var toppings
 
